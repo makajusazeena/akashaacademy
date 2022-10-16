@@ -1,0 +1,12 @@
+.card{
+    &-title{
+        margin-bottom: 30px;
+    }
+}
+.floating-card{
+    width: 30rem;
+    padding: 2.5rem;
+    position: absolute;
+    bottom: 8rem;
+    z-index: 2;
+}

@@ -1,0 +1,53 @@
+.footer{
+    background-color: #496B87;
+    color: #fff;
+    &-widget{
+        &__title{
+            margin-bottom: 3rem;
+            color: #Fff;
+        }
+        a{
+            color: #fff;
+        }
+        ul{
+            li{
+                &:not(:last-child){
+                    margin-bottom: 10px;
+                }
+               
+            }
+        }
+        &__contact{
+            li{
+                padding-left: 30px;
+                position: relative;
+                i{
+                    position: absolute;
+                    left: 0;
+                    top: 0.4rem;
+                    color:  lighten($color: #496B87, $amount: 10%);;
+                    
+                }
+            }
+        }
+    }
+}
+
+
+.social-links{
+    li{
+       &:not(:last-child){
+        margin-right: 1rem;
+       } 
+    }
+    &__icon{
+        display: block;
+        width: 3.5rem;
+        height: 3.5rem;
+        text-align: center;
+        line-height: 3.5rem;
+        border-radius: 4px;
+        background-color: lighten($color: #496B87, $amount: 10%);
+    }
+}
+
