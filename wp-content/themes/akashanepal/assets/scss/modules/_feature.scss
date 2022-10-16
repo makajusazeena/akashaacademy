@@ -1,0 +1,10 @@
+.feature-section{
+    .card{
+        transform: tranalte(0);
+        transition: $transition-default;
+        &:hover{
+            background-color: $gray-100;
+            transform: translateY(-10px);
+        }
+    }
+}
